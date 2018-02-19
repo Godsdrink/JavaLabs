@@ -13,7 +13,7 @@ public class TouristTour {
 		this.quantity = 100;
 		this.discount = 30;
 		this.price = 300;
-		this.NameOfTourist = "John Gold";
+		this.NameOfTourist = "Name Surname";
 		TotalQuantity += quantity;
 	}
 
@@ -36,7 +36,7 @@ public class TouristTour {
 		TotalQuantity += quantity;
 	}
 
-	// methods of access
+
 	public int GetQuantity() {
 		return this.quantity;
 	}
@@ -56,6 +56,7 @@ public class TouristTour {
 	public void printSum() {
 		System.out.println("Static field from method printSum: " + TotalQuantity);
 	}
+
 	void resetValues(int quantity, int discount, double price, String NameOfTourist, boolean vip) {
 		TotalQuantity -= this.quantity;
 		TotalQuantity += quantity;
@@ -64,6 +65,6 @@ public class TouristTour {
 		this.price = price;
 		this.NameOfTourist = NameOfTourist;
 		this.vip = vip;
-		
+
 	}
 }
