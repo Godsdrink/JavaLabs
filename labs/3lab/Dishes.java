@@ -1,10 +1,11 @@
 package labs;
 
 public class Dishes {
-	 public double caloricContent = 0;
+	public double caloricContent = 0.0;
 	public String typeOfMenu;
 	private double price;
 	private String dishName; 
+	
 public double getCaloricContent() {
 		return caloricContent;
 	}
@@ -52,4 +53,6 @@ public void getInfo() {
 	System.out.println(getDishName());
 	
 }
+
+
 }
