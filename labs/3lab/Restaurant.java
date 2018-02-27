@@ -28,9 +28,11 @@ public class Restaurant {
 	public void setRestaurantAdress(String restaurantAdress) {
 		this.restaurantAdress = restaurantAdress;
 	}
-	public void getInfo() {
+
+	public void getInformation() {
 		System.out.println(getRestaurantName());
 		System.out.println(getFreePlaces());
 		System.out.println(getRestaurantAdress());
 	}
+	
 }

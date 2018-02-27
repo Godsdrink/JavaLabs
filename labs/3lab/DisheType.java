@@ -1,13 +1,8 @@
 package labs;
 
-public enum DisheType {
+public enum DisheType  {
 
-	Soup,Meat,SideDish,Desert,Drink;
+	Soup, Meat, SideDish, Desert, Drink;
 
-
-public void getInfo() {
-for(DisheType element: DisheType.values()) {
-	 System.out.println(element);
-}
-}
+	
 }
