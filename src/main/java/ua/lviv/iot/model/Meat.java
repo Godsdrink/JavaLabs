@@ -1,4 +1,4 @@
-package ua.lviv.iot;
+package ua.lviv.iot.model;
 
 public class Meat extends Dish {
 
@@ -6,9 +6,10 @@ public class Meat extends Dish {
     private int timeToCook;
 
 
-    public Meat(double caloricContent, String dishName, double price, String typeOfMenu, int timeToCook) {
-        super(caloricContent, dishName, price, typeOfMenu);
+    public Meat(double caloricContent, final Integer id, final String dishName, double price, String typeOfMenu, int timeToCook) {
+        super(caloricContent,id,dishName,price,typeOfMenu);
         this.timeToCook = timeToCook;
+
     }
 
     @Override
@@ -16,5 +17,6 @@ public class Meat extends Dish {
         return "Meat [timeToCook=" + timeToCook + ", getCaloricContent()=" + getCaloricContent() + ", getTypeOfMenu()="
                 + getTypeOfMenu() + ", getPrice()=" + getPrice() + ", getDishName()=" + getDishName() + "]";
     }
+
 
 }

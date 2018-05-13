@@ -1,0 +1,14 @@
+ua\lviv\iot\model\DisheType.class
+ua\lviv\iot\model\SideDish.class
+ua\lviv\iot\model\Meat.class
+ua\lviv\iot\persistence\dao\DishDao.class
+ua\lviv\iot\model\DishWriter.class
+ua\lviv\iot\model\Soup.class
+ua\lviv\iot\persistence\dao\DishDaoImpl.class
+ua\lviv\iot\model\Dish.class
+ua\lviv\iot\model\Desert.class
+ua\lviv\iot\model\DishService.class
+ua\lviv\iot\model\DishesManager.class
+ua\lviv\iot\persistence\dao\AbstractDao.class
+ua\lviv\iot\config\JaxRsConfig.class
+ua\lviv\iot\persistence\dao\IDao.class

@@ -1,10 +1,10 @@
-package ua.lviv.iot;
+package ua.lviv.iot.model;
 
 public class Desert extends Dish {
     private double sugarContent;
 
-    public Desert(double caloricContent, String dishName, double price, String typeOfMenu, double sugarContent) {
-        super(caloricContent, dishName, price, typeOfMenu);
+    public Desert(double caloricContent, final Integer id, final String dishName, double price, String typeOfMenu, double sugarContent) {
+        super(caloricContent,id,dishName,price,typeOfMenu);
         this.sugarContent = sugarContent;
     }
 

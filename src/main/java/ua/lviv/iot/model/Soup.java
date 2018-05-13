@@ -1,11 +1,11 @@
-package ua.lviv.iot;
+package ua.lviv.iot.model;
+
 public class Soup extends Dish {
     private int ingridients;
 
 
-
-    public Soup(double caloricContent, String dishName, double price, String typeOfMenu, int ingridients) {
-        super(caloricContent, dishName, price, typeOfMenu);
+    public Soup(double caloricContent, final Integer id, final String dishName, double price, String typeOfMenu, int ingridients) {
+        super(caloricContent,id,dishName,price,typeOfMenu);
         this.ingridients = ingridients;
     }
 
